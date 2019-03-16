@@ -1,5 +1,7 @@
-public class MyClass {
+public class VariablesName {
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int len = txt.length();
+    System.out.println("The length of the txt string is: " + len);
   }
 }
